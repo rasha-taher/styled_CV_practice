@@ -88,9 +88,12 @@ img{
     
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 360px) and (max-width: 1024px) {
+    body{
+        font-size: 25px;
+    }
     .helper {
-        flex-direction: column;
+        flex-direction: block;
     }
 
     img {
@@ -98,27 +101,36 @@ img{
         margin-right: auto;
         margin-top: 20px;
     }
-
-
-    .personal-info {
-        text-align: center;
-        padding: 10px;
+    
+    .inside{
+        width: 100%;
+        padding: 0;
     }
-
     .parts {
         flex-direction: column;
     }
 
-    .inside {
-        width: 100%;
+    .trying{
+        font-size: 20px;
     }
 
     .skills {
         margin: 5px;
+        font-size: 25px;
     }
 
     .space {
         word-spacing: 0;
+    }
+    .info{
+        padding-top: -15px;
+        width: 100%;
+        height:auto;
+    }
+    .personal{
+       display: flex;
+       flex-direction: column;
+        margin:0;
     }
 }
   
