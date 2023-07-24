@@ -100,31 +100,6 @@ img{
     }
 
 
-    .info {
-        height: 40px;
-        width: 100%;
-        background-color: darkslategray;
-        margin: -17px 0 0 0;
-        /* Add this line to show the content in two lines */
-        white-space: normal;
-    }
-    
-    .personal-info {
-        padding-top: 10px;
-        list-style-type: none;
-    }
-    
-    .personal {
-        display: inline;
-        margin-right: 120px;
-        color: white;
-    }
-    
-    .personal a {
-        text-decoration: none;
-        color: white;
-    }
-    
     .personal-info {
         text-align: center;
         padding: 10px;
